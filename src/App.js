@@ -6,7 +6,7 @@ import './mainStyle.css';
 import About from './Pages/About/Blocks/About'
 import Signup from './Pages/Signup';
 import SignIn from './Pages/Signin';
-import Homes from './Pages/Home/Home';
+import Home from './Pages/Home/Home';
 
 function App() {
   return (
