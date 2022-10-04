@@ -1,6 +1,7 @@
 import React from "react";
 import heroBg from '../../../images/heroBg.png'
-function Third_Pane (){
+
+const Third_Pane = ()=>{
     return(
         <div className="uk-margin-large-top">
             <div className="uk-container"
