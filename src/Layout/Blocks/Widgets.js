@@ -5,11 +5,6 @@ import google from '../../images/google.png'
 
 
 
-
-
-
-
-
        function MainBtn (){
            return(
                <Link to="">Support</Link>
@@ -18,8 +13,4 @@ import google from '../../images/google.png'
 
 
 
-
-
-
-export  { SignIn };
 
