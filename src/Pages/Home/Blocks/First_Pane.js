@@ -1,8 +1,7 @@
 import React from "react";
 import plumber from '../../../images/plumber.png'
 
-
-function First_Pane(){
+ const First_Pane = () => {
     return(
         <div className="">
              <div className="indexBg">
@@ -40,7 +39,7 @@ function First_Pane(){
              </div>
         </div>
     )
-}
+    }
 
 
 export default First_Pane

@@ -1,7 +1,9 @@
 import React from "react";
 import logo from '../images/logo.JPG'
 import tech_guy from '../images/tech_guy.jpg'
-import { FacebookBtn, SignUp, GoogleBtn } from "../Layout/Blocks/Widgets";
+import  FacebookBtn  from '../Components/Facebook-btn/Facebook-btn'
+import GoogleBtn from "../Components/Google-btn/Google-btn";
+import SignUpComponent from "../Components/SignUp/SignUpComponent";
 
 
 function Register () {
@@ -16,18 +18,13 @@ function Register () {
                           <div className="uk-padding  uk-text-center">
                           <FacebookBtn /> 
                           <GoogleBtn />
-                          <div className="uk-margin-left"><SignUp /> </div>
+                          <SignUpComponent/>
+                     
                           </div>
 
-                           <div className="uk-grid" data-uk-grid>
-                               <div className="uk-width-1-2@s">
-                                   <p>hello</p>
-                               </div>
+                       
 
-                               <div className="uk-width-1-2@s">
-                                   <p>hello</p>
-                               </div>
-                           </div>
+                        
 
 
 
@@ -44,7 +41,7 @@ function Register () {
                             backgroundRepeat: 'no-repeat',
                             backgroundSize: 'cover',
                            
-                            height: '130vh'
+                            height: '110vh'
                     }}
                           >
 

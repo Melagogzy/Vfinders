@@ -1,7 +1,7 @@
 import React from "react";
 import guyBg from '../../../images/22.png'
 
-function Fifth_Pane(){
+const Fifth_Pane=()=>{
     return(
           <div className="uk-margin-medium-top">
                <div className="container">

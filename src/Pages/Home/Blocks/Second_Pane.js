@@ -9,7 +9,7 @@ import artisan from '../../../images/artisan.png'
 import food from '../../../images/beauty.png'
 
 
-function Second_Pane (){
+const Second_Pane = ()=>{
     return(
         <div className="uk-container uk-margin-large-top">
             <div><h1 className="uk-text-center uk-text-bold">Browse skill by category</h1></div>

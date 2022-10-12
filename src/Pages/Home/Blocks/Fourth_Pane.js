@@ -1,7 +1,7 @@
 import React from "react";
 import sixtySeven from './../../../images/67.jpg'
 
-function Fourth_Pane(){
+const Fourth_Pane=()=>{
       return(
           <div className="uk-margin-large-top ">
             <div className="container" >
