@@ -70,7 +70,10 @@ const SignUp=()=>{
   
         </div>
 
+        <div className="uk-margin-top">
+
         <button type="submit" value="Submit" class="submit">Sign Up</button>
+        </div>
       </div> 
         </div>
     )

@@ -4,6 +4,7 @@ import afro_woman from '../images/5123.webp'
 import  FacebookBtn  from "../Components/Facebook-btn/Facebook-btn";
 import GoogleBtn from "../Components/Google-btn/Google-btn";
 import SignIn from "../Components/SignIn/SignInComponent";
+import '../mainStyle.css'
 
 
 const Login = ()=> {
@@ -11,6 +12,7 @@ const Login = ()=> {
         <div>
               <div className="uk-grid">
                       <div className="uk-width-1-2@s">
+                        <div className="">
                           <div className="logo uk-text-center uk-padding">
                               <img src= {logo}/>
                           </div>
@@ -22,7 +24,7 @@ const Login = ()=> {
                         
                           </div>
 
-                       
+                          </div>
 
 
 

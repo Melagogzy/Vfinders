@@ -2,6 +2,10 @@ h1,h2,h3,h4{
   font-family: 'Playfair Display', serif;
 }
 
+h1{
+  font-size: 40px;
+}
+
 h3{
 font-size:30px;
 }
@@ -9,7 +13,9 @@ font-size:30px;
 h4{
   font-size:26px;
   }
-
+h6{
+  font-size: 18px;
+}
 
 .logoStyle{
   max-width: 180px;
@@ -18,6 +24,296 @@ h4{
 
 
 
+
+/**Mobile menu styles**/
+
+.mobileMenuBar{
+  width:100% !important;
+  background-color: #000 !important;
+  
+}
+
+
+  p, ul, li, div, nav
+  {
+
+      padding:0;
+      margin:0;
+  }
+
+
+  body
+  {
+      font-family:Calibri;
+  }
+
+
+  #menu {
+      overflow: auto;
+      position:relative;
+      z-index:2;
+      height: 196px;
+  }
+
+
+  .parent-menu {
+      
+      min-width:200px;
+      float:left;
+  }
+
+
+  #menu ul
+  {
+      list-style-type:none;
+  }
+
+
+  #menu ul li a
+  {
+
+      padding:12px 15px;
+      display:block;
+      color:#fff;
+      font-size: 12px;
+      text-decoration:none;
+      margin-top: -7px;
+    
+  }
+
+
+
+      #menu ul li:hover > ul {
+
+        left: 162px;
+
+        -webkit-transition: left 200ms ease-in;
+
+        -moz-transition: left 200ms ease-in;
+
+        -ms-transition: left 200ms ease-in;
+
+        transition: left 200ms ease-in;
+
+    }
+
+
+    #menu ul li > ul {
+
+        position: absolute;
+
+        background-color: #333;
+
+        top: 0;
+
+        left: -200px;
+
+        min-width: 200px;
+
+        z-index: -1;
+
+        height: 100%;
+
+        -webkit-transition: left 200ms ease-in;
+
+        -moz-transition: left 200ms ease-in;
+
+        -ms-transition: left 200ms ease-in;
+
+        transition: left 200ms ease-in;
+
+    }
+
+
+    #menu ul li > ul li a:hover
+
+    {
+
+        background-color:#2e2e2e;
+    
+
+    }
+
+
+
+
+
+
+.textLeft{
+  position: relative;
+  left:-50px;
+}
+
+.negativeTopMarginSmall{
+  position: relative;
+  top: -10px;
+}
+
+
+
+    .advertImg{
+      width: 400px
+    }
+
+
+
+
+    .modalBtn{
+      position: relative;
+      left:60px;
+      padding-top: 15px;
+    }
+
+
+
+.mobileNav{
+  width: 100%;
+  background-color: ;
+  padding: 15px;
+}
+
+  .uk-navbar-container:not(.uk-navbar-transparent) {
+    background: transparent !important;
+}
+
+.uk-navbar-dropdown {
+  display: none;
+  position: absolute;
+  z-index: 1020;
+  box-sizing: border-box;
+  width: 220px;
+  
+  padding: 25px;
+  background: #000 !important;
+  color: #666;
+  box-shadow: 0 5px 12px rgb(0 0 0 / 15%);
+}
+
+
+/***Drop down Menu**/
+.dropDown li {
+  padding-bottom: 10px;
+}
+
+
+
+
+  .logoStyle{
+    max-width: 180px;
+  }
+
+  .mainNavBar{
+    padding-top: 15px;
+    padding-bottom: 10px;
+
+  }
+
+
+
+  nav {
+    margin: 0 auto;
+  
+    padding: 10px 0;
+  }
+  nav ul {
+    list-style: none;
+    text-align: left;
+    font-family: "Karla", sans-serif !important;
+  }
+  nav ul li {
+    display: flex;
+    font-family: "Karla", sans-serif !important;
+    
+  }
+  nav ul li a {
+    font-size: 14px;
+  
+    text-decoration: none;
+   
+    letter-spacing: 1px;
+    color: #fff !important;
+    text-transform: none !important;
+    font-family: "Karla", sans-serif !important;
+  
+    margin-top: px;
+  }
+  nav ul li a,
+  nav ul li a:after,
+  nav ul li a:before {
+    transition: all 0.5s;
+    
+  }
+  nav ul li a:hover {
+    color: ;
+    text-decoration: none;
+  }
+  
+  /* Keyframes */
+  @-webkit-keyframes fill {
+    0% {
+      width: 0%;
+      height: 1px;
+    }
+    50% {
+      width: 100%;
+      height: 1px;
+    }
+    100% {
+      width: 100%;
+      height: 100%;
+      background: #fff;
+    }
+  }
+  
+
+
+
+
+/* stroke */
+nav.stroke ul li a,
+nav.fill ul li a {
+  position: relative;
+}
+nav.stroke ul li a:after,
+nav.fill ul li a:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: ".";
+  text-decoration: none;
+  color: transparent;
+  background: #fff;
+  height: 1px;
+
+}
+nav.stroke ul li a:hover:after {
+  width: 100%;
+}
+
+nav.fill ul li a {
+  transition: all 2s;
+}
+
+nav.fill ul li a:after {
+  text-align: left;
+  content: ".";
+  margin: 0;
+  opacity: 0;
+}
+nav.fill ul li a:hover {
+  color: #fff;
+  z-index: 1;
+}
+nav.fill ul li a:hover:after {
+  z-index: -10;
+  animation: fill 1s forwards;
+  -webkit-animation: fill 1s forwards;
+  -moz-animation: fill 1s forwards;
+  opacity: 1;
+}
 
 
 
@@ -33,13 +329,9 @@ h4{
 }
 
   .logo{
-    width: 150px;
+    width: 250px;
   }
 
-  .formTerms{
-    position: relative;
-    left:-40px
-  }
 
   .headerBar {
     opacity: rgba(0, 0, 0, 0.84)!important;
@@ -54,13 +346,14 @@ h4{
 
   .indexBg{
     background-color: #9CCF31;
-    height: 95vh;
+    height: auto;
   }
 
   .mainNavBar{
-    background-color: ;
+   
     padding-top: 20px;
     padding-bottom: 20px;
+   
     
   }
 
@@ -104,7 +397,7 @@ body{
   width: 100%;
   border-right: none;
   padding: 5px;
-  height: 38px;
+  height: 50px;
   border-radius: 5px 0 0 5px;
   outline: none;
   color: #9DBFAF;
@@ -130,6 +423,11 @@ body{
   width:80px
 }
 
+
+.signInCont{
+  background-color: #9CCF31;
+}
+
 .iconContainer{
   width: 100%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -140,4 +438,46 @@ body{
   color:#fff
 }
 
-/*Resize the wrap to see the search bar change!*/
+/* Big tablet to 1200px (widths smaller taht the 1140px row) */
+@media only screen and (max-width: 1200px) {
+
+}
+
+
+/* Small tablet to big tablet: from 768px to 1023px */
+@media only screen and (max-width: 1023px) {
+
+}
+
+
+
+
+
+/* Small phones to small tablets: from 481px to 767px */
+@media only screen and (max-width: 767px) {
+
+}
+
+
+
+/* Small phones: from 0 to 480px */
+@media only screen and (max-width: 480px) {
+
+h1{
+  font-size: 28px;
+}
+
+h4 {
+  font-size: 20px ;
+}
+
+
+
+
+
+.ukIcon{
+  width:45px !important
+}
+
+
+}

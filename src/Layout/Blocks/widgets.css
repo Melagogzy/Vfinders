@@ -1,0 +1,50 @@
+/* widgets.css */
+
+.loginBtn{
+    font-size: 14px;
+}
+
+.signUpBtn{
+    background-color: #ff9e01;
+    font-size: 14px;
+    color:#fff;
+    padding: 0 20px 7px 20px;
+    border-radius: 30px;
+}
+
+
+/**Footer Menu**/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  
+  }
+  
+  li a {
+    display: block;
+    color: #fff;
+    padding-top:5px;
+    text-decoration: none;
+    font-size: 14px;
+    text-align: left;
+  }
+  
+  /* Change the link color on hover */
+  li a:hover {
+   text-decoration: none;
+    color: #ffdd00;
+  }
+
+
+  .iconFooter{
+    border-radius: 50%;
+    border: 2px solid #fff;
+    padding: 5px 0 0 0;
+  }
+
+  .socialFooterDiv{
+    border-bottom: 1px solid #f4f4fe;
+    padding-bottom: 30px;
+  }

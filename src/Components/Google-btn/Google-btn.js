@@ -13,7 +13,7 @@ const GoogleBtn = () =>{
               <div class="fbIcon "><img src={google} /></div>
           </div>
           <div>
-              <div class="">Continue with Facebook</div>
+              <div class="googleBtnText">Continue with Google</div>
           </div>
           <div>
               <div class=""></div>

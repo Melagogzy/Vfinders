@@ -1,8 +1,9 @@
 import {Link } from 'react-router-dom'
 import React, { useState, useEffect } from "react";
 import mainLogo from './../../images/logo2.png';
+import './widgets.css'
 
-import { Grid, Button, Paper, Hidden, Divider, Drawer, ListItem, List, ListItemText, IconButton } from "@material-ui/core";
+import { Grid, Paper, Hidden, Divider, Drawer, ListItem, List, ListItemText, IconButton } from "@material-ui/core";
 
 
 function HeaderBar(props){
@@ -36,26 +37,34 @@ return(
     >
            <div className="uk-container">
              <div className="mainNavBar">
+             
+
              <nav class="uk-navbar-container" data-uk-navbar>
 
-                   <div class="uk-navbar-left" uk-scrollspy="cls: uk-animation-slide-left; repeat: true">
+             <div class="uk-navbar-left" uk-scrollspy="cls: uk-animation-slide-left; repeat: true">
                       <Link to ="/"><img src= {mainLogo} className="logoStyle"/> </Link>
                   </div>
 
 
-                 <div class="uk-navbar-center">
+              
+                  <div class="uk-navbar-center">
                  <nav class="stroke  "   >
                         <ul class="uk-navbar-nav ">
                             
 
                             <li>
-                                <a href="#">Programs</a>
+                                <a href="#">Find Talent</a>
                                 <div class="uk-navbar-dropdown">
                                     <ul class="uk-nav uk-navbar-dropdown-nav dropDown">
-                                    <Link to ="/virtualcourses"><li class="uk-active "><a href="#"> Virtual-one-on-one</a></li></Link>
-                                       <Link to ="/techcamp-course"> <li className=""><a href="#">Tech Camps</a></li> </Link>
-                                       <Link to ="/VirtualSmallGroup"> <li className=""><a href="#">Virtual Small Group</a></li> </Link>
-                                       <Link to ="/schools"> <li className=""><a href="#">At School Location</a></li> </Link>
+                                    <Link to ="/"><li class="uk-active "><a href="#"> Development & IT</a></li></Link>
+                                       <Link to ="/"> <li className=""><a href="#">Design & Creative</a></li> </Link>
+                                       <Link to ="/"> <li className=""><a href="#">Sales & Marketing</a></li> </Link>
+                                       <Link to ="/"> <li className=""><a href="#">Writing & Translation</a></li> </Link>
+                                       <Link to ="/"> <li className=""><a href="#">Admin & Customer Support</a></li> </Link>
+                                       <Link to ="/"> <li className=""><a href="#">Finance & Accounting</a></li> </Link>
+                                       <Link to ="/"> <li className=""><a href="#">HR & Training</a></li> </Link>
+                                       <Link to ="/"> <li className=""><a href="#">Engineering & Architecture</a></li> </Link>
+                                   
                                     </ul>
                                 </div>
                             </li>
@@ -63,16 +72,14 @@ return(
 
 
                             <li>
-                                <a href="#">Courses</a>
+                                <a href="#">Find Work</a>
                                 <div class="uk-navbar-dropdown">
                                     <ul class="uk-nav uk-navbar-dropdown-nav dropDown">
                                         
-                                      <Link to = "/computer-course"><li class="uk-active "><a href="#">   Computer Courses</a></li> </Link>
-                                       <Link to ="/coding-courses"> <li class="uk-active "><a href="#">   Coding Courses</a></li></Link>
-                                        <Link to = "/game-dev"><li className=""><a href="#">Game Dev Courses</a></li></Link>
-                                       <Link to ="/courses"> <li className=""><a href="#"> All Courses</a></li></Link>
-                                       <Link to="/maths-tutoring"> <li className=""><a href="#">Maths Courses</a></li> </Link>
-                                       {/* <Link to="/tech-camp"> <li className=""><a href="#">Tech camp</a></li> </Link> */}
+                                      <Link to = "/"><li class="uk-active "><a href="#">  Ways to Learn</a></li> </Link>
+                                       <Link to ="/"> <li class="uk-active "><a href="#">   Find work for your skills</a></li></Link>
+                                        <Link to = "/"><li className=""><a href="#">Find ways to promote yourself</a></li></Link>
+                                      
                                     </ul>
                                 </div>
                             </li>
@@ -80,11 +87,13 @@ return(
 
 
                              <li>
-                                <a href="#">Why CyberTeck</a>
+                                <a href="#">Why Value Finders</a>
                                 <div class="uk-navbar-dropdown">
                                     <ul class="uk-nav uk-navbar-dropdown-nav dropDown">
-                                      <Link to ="/about-us">  <li class="uk-active "><a href="#">About Us</a></li> </Link>
-                                      <Link to ="/teacher" > <li className=""><a href="#"> Our Teachers</a></li> </Link>
+                                      
+                                    <Link to ="/about-us">  <li class="uk-active "><a href="#">About Us</a></li> </Link>
+                                      <Link to ="/about-us">  <li class="uk-active "><a href="#">How to Hire</a></li> </Link>
+                                      <Link to ="/teacher" > <li className=""><a href="#"> How to find work</a></li> </Link>
                                       <Link to ="/blog">  <li className=""><a href="#">Blog</a></li> </Link>
                                        <Link to ="/contactus" > <li className=""><a href="#">Contact Us</a></li> </Link>
                                         {/**<li className=""><a href="#">Online programs FAQs</a></li> ***/}
@@ -93,19 +102,23 @@ return(
                             </li>
                         </ul>
                         </nav>
+                 </div> 
+
+
+              <div class="uk-navbar-right ">
+              <ul class="uk-navbar-nav">
+                  <Link to="/signin"><li class="uk-active"><a href="">Login</a></li></Link>  
+                  <Link to="signup"><li class="uk-margin-left signUpBtn"><a href="">Sign Up</a></li></Link>  
+                    
+                </ul>
                  </div>
-                   
+            </nav>
 
 
 
-                 <div class="uk-navbar-right">
-                   
-                   <Link to="/checkout"  class="uk-margin-right">
-                   <span uk-icon="cart" style={{color:'#73d56e'}}></span> {numberOfItems}
-                   </Link>
-                   
-                   </div>
-             </nav>
+
+
+
           </div>
         </div>
 
