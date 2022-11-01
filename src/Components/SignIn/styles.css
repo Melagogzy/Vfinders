@@ -1,0 +1,19 @@
+.formTerms{
+    font-size: 14px;
+    position: relative;
+    left:-60px;
+  
+}
+
+
+
+/* Small phones: from 0 to 480px */
+@media only screen and (max-width: 480px) {
+    .formTerms{
+        font-size: 12px;
+        position: relative;
+        left:-20px;
+      
+    }
+
+}

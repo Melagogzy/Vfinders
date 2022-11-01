@@ -11,7 +11,7 @@ const FacebookBtn = ()=>{
                  <div class="fbIcon uk-margin-small-top"><img src={facebook} /></div>
              </div>
              <div>
-                 <div class="uk-margin-small-top">Continue with Facebook</div>
+                 <div class="fbBtnText uk-margin-small-top">Continue with Facebook</div>
              </div>
              <div>
                  <div class=""></div>

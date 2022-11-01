@@ -27,7 +27,7 @@ const Third_Pane = ()=>{
                       </div>
 
                       <div className="uk-width-1-2@s">
-                           <p>hello</p>
+                         
                       </div>
                   </div>
 
