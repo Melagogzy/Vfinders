@@ -6,7 +6,7 @@ import GoogleBtn from "../Components/Google-btn/Google-btn";
 import SignUpComponent from "../Components/SignUp/SignUpComponent";
 
 
-function Register () {
+function Register (props) {
     return(
         <div>
               <div className="uk-grid">
@@ -18,6 +18,7 @@ function Register () {
                           <div className="uk-padding  uk-text-center">
                           <FacebookBtn /> 
                           <GoogleBtn />
+                        
                           <SignUpComponent/>
                      
                           </div>

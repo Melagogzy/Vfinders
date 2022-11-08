@@ -1,12 +1,23 @@
-import React from "react";
-import './styles.css'
+import React, {useState} from "react";
+import './styles.css';
 
-
-
-
-
+import { useLoginMutation } from "../../Features/api/apiSlice";
 
 const SignIn =()=>{
+const [email, setEmail] = useState('')
+const [password, setPassword] = useState('')
+
+const [login, {isLoading, isError, isSuccess, data, error}] = useLoginMutation()
+const HandleLogin = (e) => {
+  e.preventDefault()
+  const payload = {
+    email: email,
+    password: password
+  }
+  console.log(payload)
+  login(payload)
+  console.log(data)
+}
     return(
         <div>
                           
@@ -15,13 +26,13 @@ const SignIn =()=>{
      
         
         <div class="input-container ic2">
-          <input id="email" class="input" type="text" placeholder=" " />
+          <input value={email} onChange={(e)=>{setEmail(e.target.value)}} id="email" class="input" type="text" placeholder=" " />
           <div class="cut cut-short"></div>
           <label for="email" class="placeholder">Email </label>
         </div>
   
         <div class="input-container ic2">
-          <input id="password" class="input" type="text" placeholder=" " />
+          <input  value={password} onChange ={(e)=>{setPassword(e.target.value)}} id="password" class="input" type="text" placeholder=" " />
           <div class="cut cut-short"></div>
           <label for="FirstName" class="placeholder">Password</label>
         </div>
@@ -46,7 +57,7 @@ const SignIn =()=>{
         </div>
 
     
-        <button type="submit" value="Submit" class="submit">Sign Up</button>
+        <button onClick={HandleLogin} type="submit" value="Submit" class="submit">Sign Up</button>
       </div> 
         </div>
     )

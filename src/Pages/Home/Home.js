@@ -13,7 +13,6 @@ function Home(){
          <First_Pane />
          <Second_Pane />
           <Third_Pane />
-          
           <Fourth_Pane />
         </Layout>
 
