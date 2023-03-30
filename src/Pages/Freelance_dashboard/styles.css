@@ -1,0 +1,198 @@
+.leftSidebar{
+    width:320px
+}
+
+.freelancer_img{
+  width:120px
+}
+.right_main_container{
+    width:900px;
+    border: 1px solid #9b9a9a;
+  padding: 20px;
+  border-radius: 30px;
+  margin-left: 50px;
+}
+
+.button{
+    background-color: #9CCF31;
+   
+  }
+
+/* Style the sidebar */
+.sidebar {
+   
+    top: 0;
+    left: 0;
+ padding-top: 16px;
+  }
+  
+  /* Style sidebar links */
+  .sidebar a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #3e3d3d;
+    display: block;
+    text-align: left;
+  
+  }
+  
+  /* Style links on mouse-over */
+  .sidebar a:hover {
+   background-color: #9CCF31;
+   border-radius: 5px;
+   color:#fff;
+  }
+
+  .sidebar a.active {
+    background-color: #9CCF31;
+  }
+  
+  .main {
+    margin-left: 160px; 
+    padding: 0px 10px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+  }
+
+  .free_menu_container{
+    background-color: #F2F2F2;
+    height: 50px;
+    border-radius: 30px;
+    margin-left: 0px;
+  }
+
+  .job_post_container{
+    margin-left: 0px;
+  }
+
+
+
+
+ /* Horizontal Nav */
+
+.topnav {
+      overflow: hidden;
+    }
+    
+    .topnav a {
+      float: left;
+    color: #000;
+    text-align: center;
+    padding: 12px 26px  ;
+    margin-left: 20px;
+    text-decoration: none;
+      font-size: 15px;
+    }
+    
+    .topnav a:hover {
+      color: black;
+    }
+    
+/* Add a color to the active/current link */
+.topnav a.active {
+color: #9CCF31;
+border-bottom: 2px solid #9CCF31;
+
+    }
+
+
+
+/* Search bar in main content freelance dashboard */
+.search_container{
+    margin-left: 0px;
+}    
+
+
+.search {
+    width: 100%;
+    position: relative;
+    display: flex;
+  }
+  
+  .searchTerm {
+    width: 100%;
+    border-right: none;
+    padding: 5px;
+    height: 40px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #9DBFAF;
+  }
+  
+  .searchTerm:focus{
+    color: #9CCF31;
+  }
+  
+  .searchButton {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #9CCF31;
+    background: #9CCF31;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  .indexIcon{
+    width:80px
+  }
+
+  .job_connect{
+    font-size: 12px;
+  }
+
+  /*Horizontal Scroll Menu*/
+  div.scrollmenu {
+    background-color: ;
+    overflow: auto;
+    white-space: nowrap;
+    }
+    
+    div.scrollmenu a {
+    display: inline-block;
+    color: #777;
+    text-align: center;
+    padding: 10px;
+    font-size:14px;
+    text-decoration: none;
+    }
+    
+    div.scrollmenu a:hover {
+    background-color: ;
+    }
+  
+  
+
+  
+
+/* Small phones: from 0 to 480px */
+@media only screen and (max-width: 480px) {
+
+    .right_main_container{
+        width:340px;
+        margin: 0 auto;
+    }
+    .job_post_container{
+        margin-left: 0px;
+      }
+
+      .free_menu_container{
+        background-color: #F2F2F2;
+        height: 50px;
+        border-radius: 30px;
+        margin-left: 0px;
+      }
+
+    
+/* Search bar in main content freelance dashboard */
+.search_container{
+    margin-left: 0px;
+}    
+
+}

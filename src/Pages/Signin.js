@@ -18,8 +18,8 @@ const Login = ()=> {
                           </div>
                           <div><h2>Sign into your account</h2></div>
                           <div className="uk-padding  uk-text-center">
-                          <FacebookBtn />  
-                          <GoogleBtn />
+                          {/* <FacebookBtn />  
+                          <GoogleBtn /> */}
                           <SignIn />
                         
                           </div>

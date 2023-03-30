@@ -16,8 +16,8 @@ function Register (props) {
                           </div>
                           <div><h2>Sign up to find work you love</h2></div>
                           <div className="uk-padding  uk-text-center">
-                          <FacebookBtn /> 
-                          <GoogleBtn />
+                          {/* <FacebookBtn /> 
+                          <GoogleBtn /> */}
                         
                           <SignUpComponent/>
                      
