@@ -1,0 +1,31 @@
+.cLient_draft {
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 7px;
+
+}
+
+.client_job_post_container{
+    border-bottom: solid 1px #9a9a9a;
+    padding:30px
+}
+
+.cLient_post{
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 7px;   
+}
+
+.green{
+    color: #9CCF31
+}
+
+.box-shadow{
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 7px; 
+}
+
+.star{
+    width:80%
+}

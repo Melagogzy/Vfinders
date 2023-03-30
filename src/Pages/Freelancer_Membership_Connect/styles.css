@@ -1,0 +1,43 @@
+.box-shadow{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* Style the sidebar */
+.sidebar {
+   
+    top: 0;
+    left: 0;
+ padding-top: 16px;
+  }
+  
+  /* Style sidebar links */
+  .sidebar_C a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #3e3d3d;
+    display: block;
+    text-align: left;
+  
+  }
+  
+  /* Style links on mouse-over */
+  .sidebar_C a:hover {
+   
+   border-radius: 5px;
+   color:#9CCF31 !important;
+  }
+
+  .sidebar_C a.active {
+    background-color: #9CCF31;
+  }
+  
+  .main {
+    margin-left: 160px; 
+    padding: 0px 10px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidebar_C {padding-top: 15px;}
+    .sidebar_C a {font-size: 18px;}
+  }

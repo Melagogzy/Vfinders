@@ -1,0 +1,52 @@
+
+.button_ghost{
+    border: solid 1px #9CCF31;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 30px;
+    font-size: 14px;
+    color:#9CCF31
+}
+
+.button{
+    background-color : transparent;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 30px;
+    font-size: 14px;
+    color:#fff
+}
+
+
+
+/* Small phones: from 0 to 480px */
+@media only screen and (max-width: 480px) {
+
+    .button_ghost{
+        border: solid 1px #9CCF31;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        padding-left: 6px;
+        padding-right: 10px;
+        border-radius: 20px;
+        font-size: 14px;
+        color:#9CCF31
+    }
+    
+    .button{
+        background-color : transparent;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        padding-left: 6px;
+        padding-right: 6px;
+        border-radius: 20px;
+        font-size: 12px;
+        color:#fff
+    }
+
+
+}

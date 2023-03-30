@@ -142,7 +142,7 @@ import axios from '../../../lib/config'
              </div>
 
            
-             {/* <div className="indexBg uk-hidden@s">
+              <div className="indexBg uk-hidden@s">
                  <div className="uk-container">          
                  <div className="uk-grid " data-uk-grid>
                   
@@ -155,7 +155,7 @@ import axios from '../../../lib/config'
                            <div className="">
                                  <form className=" uk-padding-small">
                                  <div class="wrap">
-                                <div class="search">
+                                <div class="import react fro">
                                     <input type="text" class="searchTerm" placeholder="What are you looking for?"/>
                                     <button type="submit" class="searchButton">
                                     <span uk-icon="icon: search"></span>
@@ -179,7 +179,7 @@ import axios from '../../../lib/config'
                  </div>
 
 
-             </div> */}
+             </div> 
 
 
 

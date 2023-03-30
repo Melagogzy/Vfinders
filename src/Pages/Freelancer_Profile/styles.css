@@ -1,0 +1,31 @@
+.free_img{
+    width:60%;
+    position: relative;
+    left:-50px;
+}
+.free_container{
+    position: relative;
+    left:-80px
+}
+
+
+.uk-subnav-pill > .uk-active > a {
+    background-color: transparent !important;
+    color: #9c939e;
+    border-bottom: 2px solid #9c939e;
+  }
+
+  .rating{
+    width: 130px;
+  }
+
+
+
+
+/* Small phones: from 0 to 480px */
+@media only screen and (max-width: 480px) {
+  .moveLeft{
+    position: relative;
+  left: 18px;
+  }
+}
