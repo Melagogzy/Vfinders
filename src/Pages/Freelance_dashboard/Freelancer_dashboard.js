@@ -5,28 +5,19 @@ import {Link } from 'react-router-dom'
 import './styles.css'
 import Job_post from './Blocks/Job_post'
 import Search_filter from '../../Components/Search-filter/Search_filter'
+import {useSelector} from 'react-redux'
+import Bio from './Blocks/Bio'
 
 
-const Freelancer_dashboard = () =>(
-    
+
+const Freelancer_dashboard = () =>(    
        <Layout>
 <div className='uk-container uk-margin-large-top'>
         <div className='row'>
 
         {/*Left Side bar*/}
         <div className='col-sm-4  leftSidebar uk-margin-large-top' >
-             <div className='row uk-padding-small@s'>
-                   <div className='col-sm-6'>
-                       <img src={free_img} className="freelancer_img"/>
-                   </div>
-
-                   <div className='col-sm-6 uk-margin-top '>
-                       <h6 className='uk-text-bold uk-margin-remove-bottom'>Jayone Mighty</h6>
-                       <p className='uk-margin-small-top '>Freelance Profile</p>
-                   </div>
-             </div>
-
-
+            <Bio/>
              <div className='row uk-margin-top uk-margin-bottom'>
                  <div className='col-5'>
                     <p className=' uk-text-medium'>Available Connects</p>
