@@ -55,26 +55,10 @@ const HandleLogin = (e) => {
         </div>
 
     
-        <div className='uk-grid' data-uk-grid>
-           <div className='uk-width-1-5'>
-                  <div class="input-container ic2">
-          <input id="confirmPassword" type="checkbox" class="uk-checkbox"  placeholder=" " />
-                  <div class="cut cut-short"></div>
-                 </div>
-           </div>
-  
-           <div className='uk-width-4-5'>
-                      <div class="input-container ic2">
-                     
-                      <p className="formTerms uk-text-left">Yes, I understand and agree to the value-finders Terms of Service, 
-                      including the User Agreement and Privacy Policy.</p>
-                  </div>
-            </div>
-  
-        </div>
+       
 
     
-        <button onClick={HandleLogin} type="submit" value="Submit" class="submit">Sign Up</button>
+        <button onClick={HandleLogin} type="submit" value="Submit" class="submit">Login</button>
       </div> 
         </div>
     )

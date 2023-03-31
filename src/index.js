@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import userReducer from '../src/State/user'
+import wizardReducer from '../src/State/wizard';
 import { ApiProvider } from '@reduxjs/toolkit/dist/query/react';
 import { apiSlice } from './Features/api/apiSlice';
 
@@ -49,6 +50,7 @@ const encryption = encryptTransform({
 
 const reducer = combineReducers({
   user: userReducer,
+  wizard: wizardReducer,
 });
 const persistConfig = {
   key: "root",

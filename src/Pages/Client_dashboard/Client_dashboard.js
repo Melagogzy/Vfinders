@@ -4,9 +4,10 @@ import Layout from '../../Layout/Layout';
 import { Link } from 'react-router-dom';
 import './styles.css'
 
-import free_img from './../../images/Freelancer.png'
+// import free_img from './../../images/Freelancer.png'
 import Job_post from '../Freelance_dashboard/Blocks/Job_post';
 import Client_job_post from './Blocks/Client_job_post';
+import Bio from './Blocks/Bio';
 
 
 const Client_dashboard = ( ) => {
@@ -20,7 +21,7 @@ const Client_dashboard = ( ) => {
         <div className='col-sm-4  leftSidebar uk-margin-large-top' >
              <div className=''>
                  <h3 className='uk-text-left uk-margin-remove-bottom'>My Dashboard</h3>
-                 <p className='uk-text-left'>Emeka Okonkwo</p>
+                 <Bio/>
              </div>
 
                   {/**Client Draft**/}

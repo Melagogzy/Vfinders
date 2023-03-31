@@ -1,9 +1,28 @@
-import React from  'react'
+import React ,{ useState} from  'react'
 import '../styles.css'
+import { useSelector, useDispatch } from 'react-redux'
+import { setWizard } from '../../../State/wizard'
 
 
 
 const FormOne = () =>{
+
+const[title, setTitle] = useState('')
+const dispatch = useDispatch()
+
+const Next = () =>{
+
+     if(title){
+          dispatch(setWizard({stage: '1'}));
+
+     }else{
+          alert('Title can not be empty')
+     }
+
+    
+}
+
+
     return(
          <div className='uk-container' style={{height:"70vh"}}>
               <div className='uk-grid' data-uk-grid>
@@ -21,11 +40,11 @@ const FormOne = () =>{
                         <div className='uk-text-left uk-padding'>   
                            <p>Write a headline for your  post</p>
 
-                                <form>
+                                
                                     <div class=" uk-margin-small-top">
-                                        <input class="uk-input form-input" type="text" ></input>
+                                        <input value={title} onChange={(e)=>{setTitle(e.target.value)}} class="uk-input form-input" type="text" ></input>
                                     </div>
-                                </form>
+                                
                      </div>
 
                      <div className='uk-padding uk-text-left'>
@@ -40,8 +59,7 @@ const FormOne = () =>{
 
                      </div>
 
-                     <div className='uk-text-left uk-padding'>
-                        
+                     <div onClick={()=>{Next()}} className='uk-text-left uk-padding'>
                        <a href="" className='btn-form uk-margin-xlarge-top'>Next : Skills</a>
                      </div>
 

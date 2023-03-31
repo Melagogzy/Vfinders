@@ -1,9 +1,16 @@
-import React from  'react'
+import React ,{ useState} from  'react'
 import '../styles.css'
+import { useSelector, useDispatch } from 'react-redux'
+import { setWizard } from '../../../State/wizard'
 
 
 
 const FormFour = () =>{
+    const dispatch = useDispatch()
+     
+     const Next = () =>{
+               dispatch(setWizard({stage: '4'}));
+     }
     return(
          <div className='uk-container' style={{height:"70vh"}}>
               <div className='uk-grid' data-uk-grid>
@@ -69,7 +76,7 @@ const FormFour = () =>{
                                 <a href="" className='btn-form-ghost uk-margin-xlarge-top'>Back</a>
                             </div>
 
-                  <div className='uk-margin-left'>
+                  <div onClick={()=>{Next()}} className='uk-margin-left'>
                      
                   <a href="" className='btn-form uk-margin-xlarge-top'>Next : Description</a>
                   </div>
