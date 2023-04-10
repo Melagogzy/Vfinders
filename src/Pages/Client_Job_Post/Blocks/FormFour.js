@@ -18,7 +18,6 @@ const FormFour = () =>{
                          <div className='uk-padding uk-text-left'>
                             <h2>Tell us about your budget</h2>
                             <p>This will help us match you to talent within your range</p>
-                         
                          </div>
                     </div>
 
