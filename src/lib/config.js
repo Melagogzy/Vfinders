@@ -3,7 +3,7 @@ import axios from 'axios';
 // http://localhost:27017/
 //https://valuef.herokuapp.com/
 const instance = axios.create({
-    baseURL: 'http://165.232.151.68/',
+    baseURL: 'http://localhost:5000/',
     withCredentials: true,
     method: 'POST, GET, PUT, DELETE',
 });
