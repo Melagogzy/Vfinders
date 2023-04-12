@@ -1,4 +1,9 @@
-h1,h2,h3,h4{
+
+p{
+  font-size:16px
+}
+
+h1,h2,h3{
   font-family: 'Playfair Display', serif;
 }
 
@@ -11,7 +16,11 @@ font-size:30px;
 }
 
 h4{
-  font-size:26px;
+  font-size:23px;
+  }
+
+  h5{
+    font-size: 19px;
   }
 h6{
   font-size: 18px;
@@ -154,6 +163,7 @@ h6{
     .advertImg{
       width: 400px
     }
+
 
 
 
@@ -386,43 +396,6 @@ nav.fill ul li a:hover:after {
 body{
   font-family: 'Open Sans', sans-serif;
 }
-
-.search {
-  width: 100%;
-  position: relative;
-  display: flex;
-}
-
-.searchTerm {
-  width: 100%;
-  border-right: none;
-  padding: 5px;
-  height: 50px;
-  border-radius: 5px 0 0 5px;
-  outline: none;
-  color: #9DBFAF;
-}
-
-.searchTerm:focus{
-  color: #ff9e01;
-}
-
-.searchButton {
-  width: 40px;
-  height: 50px;
-  border: 1px solid #ff9e01;
-  background: #ff9e01;
-  text-align: center;
-  color: #fff;
-  border-radius: 0 5px 5px 0;
-  cursor: pointer;
-  font-size: 20px;
-}
-
-.indexIcon{
-  width:80px
-}
-
 
 .signInCont{
   background-color: #9CCF31;

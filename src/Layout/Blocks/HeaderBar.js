@@ -1,6 +1,6 @@
 import {Link } from 'react-router-dom'
 import React, { useState, useEffect } from "react";
-import mainLogo from './../../images/logo2.png';
+import mainLogo from './../../images/logo.JPG';
 import './widgets.css'
 
 import { Grid, Paper, Hidden, Divider, Drawer, ListItem, List, ListItemText, IconButton } from "@material-ui/core";
@@ -108,7 +108,7 @@ return(
               <div class="uk-navbar-right ">
               <ul class="uk-navbar-nav">
                   <Link to="/signin"><li class="uk-active"><a href="">Login</a></li></Link>  
-                  <Link to="signup"><li class="uk-margin-left signUpBtn"><a href="">Sign Up</a></li></Link>  
+                  <Link to="/signup"><li class="uk-margin-left signUpBtn"><a href="">Sign Up</a></li></Link>  
                     
                 </ul>
                  </div>

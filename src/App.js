@@ -13,6 +13,7 @@ import Freelancer_Profile from './Pages/Freelancer_Profile/Freelancer_profile'
 import Freelancer_membership_connect from './Pages/Freelancer_Membership_Connect/Freelancer_membership_connect';
 import Wallet from './Pages/Wallet/Wallet';
 import Contact_info from './Pages/Contact_Info/Contact_Info';
+import Client_Job_Post from './Pages/Client_Job_Post/Client_Job_Post';
 
 function App() {
   return (
@@ -30,6 +31,8 @@ function App() {
              <Route path="/freelancer_membership_connect" element={<Freelancer_membership_connect />} />
              <Route path="/wallet" element={<Wallet />} />
              <Route path="/contact_info" element={<Contact_info />} />  
+             <Route path="/client_job_post" element={<Client_Job_Post />} /> 
+             
              
              
              
